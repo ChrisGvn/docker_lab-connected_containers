@@ -9,7 +9,7 @@
 <p>Visit my <a href="https://hub.docker.com/u/chrisgvn">Docker Hub page</a> to pull the images. I also include the Dockerfiles and the commands I use to run each container.</p>
 
 <h3>Reaching Milestones</h3>
-<p>This lab was a blast to build and, as simple as it is, it helped me understand a lot of important concepts in container development such as volumes, networks, writing Dockerfiles and deploying.</p>
+<p>This lab was a blast to build and, as simple as it is, helped me understand a lot of important concepts in container development such as volumes, networks, writing Dockerfiles and deploying.</p>
 
 <h3>Final Result</h3>
 <img src="https://raw.githubusercontent.com/ChrisGvn/docker_lab-connected_containers/master/screenshot.png"></img>
