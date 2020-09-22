@@ -1,0 +1,32 @@
+#row{
+    position: relative;
+    width:700px;
+    margin: 10px auto;
+    height:190px;
+    background-color: beige;
+}
+
+#picture{
+    float: left;
+    width:150px;
+    height:150px;
+    background-color: gray;
+    background-size: contain;                      /* contain or cover*/
+}
+
+#prodInfo{
+    float: right;
+    position: relative;
+    margin: 10px 20px 10px 20px;
+    width:510px;
+    height:140px;
+    text-align: justify;
+}
+ #title, #price{
+     /*margin-top: 10px;*/
+     display: inline;
+ }
+#desc{
+    margin-top: 20px;
+}
+ #price{float: right;}
