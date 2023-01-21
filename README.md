@@ -6,7 +6,7 @@
 <p>The mydb folder has the Dockerfile to build the database container and an SQL script to populate it.</p>
 
 <h3>Lab Setup</h3>
-<p>First we must setup a bridge network. The connamd I used is: <code>docker network create --driver bridge --subnet=172.19.0.0/24 --gateway=172.19.0.1 labnet
+<p>First we must setup a bridge network. The command I used is: <br><code>docker network create --driver bridge --subnet=172.19.0.0/24 --gateway=172.19.0.1 labnet
 </code> </p>
 <p>We then pull the containers with the following commands: <code>docker run -d -p 3308:3306 --network pms16 chrisgvn/mydb:test
 </code> and <code>docker run -d -p 3308:3306 --network pms16 chrisgvn/mydb:test
