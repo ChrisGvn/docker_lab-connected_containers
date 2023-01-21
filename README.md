@@ -8,9 +8,16 @@
 <h3>Lab Setup</h3>
 <p>First we must setup a bridge network. The command I used is: <br><code>docker network create --driver bridge --subnet=172.19.0.0/24 --gateway=172.19.0.1 labnet
 </code> </p>
-<p>We then pull the containers with the following commands: <br><code>docker run -d -p 3308:3306 --network pms16 chrisgvn/mydb:test
-</code> <br>and <code>docker run -d -p 3308:3306 --network pms16 chrisgvn/mydb:test
-</code></p>
+<p>We then pull the containers with the following commands:
+  
+  <ol>
+  <li><code>docker run -d -p 3308:3306 --network labnet chrisgvn/mydb:test
+</code> </li>
+  <li><code>docker run -d -p 80:80 --network labnet chrisgvn/httpd:test
+
+</code></li>
+</ol>  
+ </p>
 <p>Visit my <a href="https://hub.docker.com/u/chrisgvn">Docker Hub page</a> for more details</p>
 
 <h3>Reaching Milestones</h3>
