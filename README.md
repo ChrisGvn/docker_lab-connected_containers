@@ -11,11 +11,8 @@
 <p>We then pull the containers with the following commands:
   
   <ol>
-  <li><code>docker run -d -p 3308:3306 --network labnet chrisgvn/mydb:test
-</code> </li>
-  <li><code>docker run -d -p 80:80 --network labnet chrisgvn/httpd:test
-
-</code></li>
+  <li><code>docker run -d -p 3308:3306 --network labnet chrisgvn/mydb:test</code></li>
+  <li><code>docker run -d -p 80:80 --network labnet chrisgvn/httpd:test</code></li>
 </ol>  
  </p>
 <p>Visit my <a href="https://hub.docker.com/u/chrisgvn">Docker Hub page</a> for more details</p>
