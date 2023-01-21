@@ -6,7 +6,12 @@
 <p>The mydb folder has the Dockerfile to build the database container and an SQL script to populate it.</p>
 
 <h3>Lab Setup</h3>
-<p>Visit my <a href="https://hub.docker.com/u/chrisgvn">Docker Hub page</a> to pull the images. I also include the Dockerfiles and the commands I use to run each container.</p>
+<p>First we must setup a bridge network. The connamd I used is: <code>docker network create --driver bridge --subnet=172.19.0.0/24 --gateway=172.19.0.1 labnet
+</code> </p>
+<p>We then pull the containers with the following commands: <code>docker run -d -p 3308:3306 --network pms16 chrisgvn/mydb:test
+</code> and <code>docker run -d -p 3308:3306 --network pms16 chrisgvn/mydb:test
+</code></p>
+<p>Visit my <a href="https://hub.docker.com/u/chrisgvn">Docker Hub page</a> for more details</p>
 
 <h3>Reaching Milestones</h3>
 <p>This lab was a blast to build and, as simple as it is, helped me understand a lot of important concepts in container development such as volumes, networks, writing Dockerfiles and deploying.</p>
