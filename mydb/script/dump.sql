@@ -70,6 +70,8 @@ insert into categories (categoryID, categoryTitle, categoryDesc) values('2', 'Cl
 insert into categories (categoryID, categoryTitle, categoryDesc) values('3', 'Smartphones', 'Apple, Samsung, Huawei, Xiaomi, Asus');
 insert into categories (categoryID, categoryTitle, categoryDesc) values('4', 'Books', 'Fantasy, Cooking, DIY, Sciences, History');
 insert into categories (categoryID, categoryTitle, categoryDesc) values('5', 'Music', 'Pop, Rock, Jazz, Blues, Techno');
+insert into categories (categoryID, categoryTitle, categoryDesc) values('6', 'Collectibles', 'Memorabilia, Merchandise, Sports');
+
 
 
 SELECT SLEEP(5); 
@@ -77,5 +79,4 @@ SELECT SLEEP(5);
 INSERT INTO `products` (`id`,`prodName`,`prodDesc`,`prodCategory`,`prodStock`,`prodImageLink`,`price`) VALUES (1,'Arabella Women\'s Open Cardigan','96% Rayon, 4% Spandex, Imported, Machine WashbThis long-sleeve open-front sweater is draped from soft jersey and features an asymmetrical hem for a flowy fit','2','89','81v1G8y5MQL.jpg',11.99);
 INSERT INTO `products` (`id`,`prodName`,`prodDesc`,`prodCategory`,`prodStock`,`prodImageLink`,`price`) VALUES (2,'Xiaomi Mi Band 3 Fitness Tracker','Real-time Display of Exercise Duration, Mileage, Heart Rate, etc., 50 meters Swimming Waterproof. All-Day Health Management More accurate pedometer, heart rate, sleep quality monitoring, sedentary reminder\r Reject Call without Phone The brand new millet bracelet 3 can also display the caller name or number if you do not want to answer.','1','16','71ZIrJ6XLLL.jpg',34.33);
 INSERT INTO `products` (`id`,`prodName`,`prodDesc`,`prodCategory`,`prodStock`,`prodImageLink`,`price`) VALUES (3,'Brown Bear, Brown Bear, What Do You See?','These beloved children\'s stories are now available in beginning reader format. Complete with an introduction by master educator Laura Robb, and with fun reading activities added, these new versions of Brown Bear, Brown Bear, What Do You See? and Polar Bear, Polar Bear, What Do You Hear? are certain to appeal to a new age group and find an even wider audience. ','5','55','61qpAauXzIL.jpg',4.93);
-
-
+INSERT INTO `products` (`id`,`prodName`,`prodDesc`,`prodCategory`,`prodStock`,`prodImageLink`,`price`) VALUES (4,'Bburago 1:43 Ferrari F1-75 Diecast Model','Officially Licensed, highly detailed model of the Ferrari Formula One car driven by Charles Leclerc in 2020.','6','7','car.jpg',26.44);
