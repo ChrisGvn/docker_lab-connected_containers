@@ -63,7 +63,7 @@ SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 
 
-SELECT SLEEP(2); 
+SELECT SLEEP(5); 
 
 insert into categories (categoryID, categoryTitle, categoryDesc) values('1', 'Gadgets', 'Smart Watches, Smart Bands, IoT Devices');
 insert into categories (categoryID, categoryTitle, categoryDesc) values('2', 'Clothes', 'Tshirts, Jeans, Shoes, Handbags');
@@ -72,8 +72,10 @@ insert into categories (categoryID, categoryTitle, categoryDesc) values('4', 'Bo
 insert into categories (categoryID, categoryTitle, categoryDesc) values('5', 'Music', 'Pop, Rock, Jazz, Blues, Techno');
 
 
-SELECT SLEEP(2); 
+SELECT SLEEP(5); 
 
 INSERT INTO `products` (`id`,`prodName`,`prodDesc`,`prodCategory`,`prodStock`,`prodImageLink`,`price`) VALUES (1,'Arabella Women\'s Open Cardigan','96% Rayon, 4% Spandex, Imported, Machine WashbThis long-sleeve open-front sweater is draped from soft jersey and features an asymmetrical hem for a flowy fit','2','89','81v1G8y5MQL.jpg',11.99);
 INSERT INTO `products` (`id`,`prodName`,`prodDesc`,`prodCategory`,`prodStock`,`prodImageLink`,`price`) VALUES (2,'Xiaomi Mi Band 3 Fitness Tracker','Real-time Display of Exercise Duration, Mileage, Heart Rate, etc., 50 meters Swimming Waterproof. All-Day Health Management More accurate pedometer, heart rate, sleep quality monitoring, sedentary reminder\r Reject Call without Phone The brand new millet bracelet 3 can also display the caller name or number if you do not want to answer.','1','16','71ZIrJ6XLLL.jpg',34.33);
 INSERT INTO `products` (`id`,`prodName`,`prodDesc`,`prodCategory`,`prodStock`,`prodImageLink`,`price`) VALUES (3,'Brown Bear, Brown Bear, What Do You See?','These beloved children\'s stories are now available in beginning reader format. Complete with an introduction by master educator Laura Robb, and with fun reading activities added, these new versions of Brown Bear, Brown Bear, What Do You See? and Polar Bear, Polar Bear, What Do You Hear? are certain to appeal to a new age group and find an even wider audience. ','5','55','61qpAauXzIL.jpg',4.93);
+
+
